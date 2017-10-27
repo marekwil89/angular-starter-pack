@@ -1,0 +1,21 @@
+{
+  "name": "angular-starter-pack",
+  "authors": [
+    "-"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.10"
+  }
+}

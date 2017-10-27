@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body ng-app="app">
+    <navigation></navigation>
+    <ui-view></ui-view>
+    <foot></foot>
+
+    <!--libs-->
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <!--Roots-->
+    <script src="./app/app.js"></script>
+    <script src="./app/routes.js"></script>
+
+    <!--components-->
+    <script src="./app/components/view1/view1.component.js"></script>
+    <script src="./app/components/view2/view2.component.js"></script>
+
+    <!--shared-->
+    <script src="./app/directives/navigation/navigation.directive.js"></script>
+    <script src="./app/directives/footer/footer.directive.js"></script>
+    <script src="./app/services/ROOTservice.js"></script>
+</body>
+</html>
