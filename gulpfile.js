@@ -5,7 +5,7 @@ var concat = require('gulp-concat');
 var plumber = require('gulp-plumber');
 var browserSync = require('browser-sync').create();
 
-var src_sass = './src/assets/scss/*.scss';
+var src_sass = './src/assets/scss/**/*.scss';
 var dest_css = './src/assets/css';
 var src_html = './src/*.html';
 
